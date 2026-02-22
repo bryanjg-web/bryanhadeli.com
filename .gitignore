@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.pnp
+.pnp.js
+
+# Build / output
+dist/
+build/
+*.egg-info/
+.eggs/
+out/
+.next/
+.nuxt/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# IDE and OS
+.DS_Store
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and caches
+*.log
+.cache/
+.parcel-cache/
+.turbo/
+
+# Testing
+coverage/
+.nyc_output/
+.pytest_cache/
+htmlcov/
+
+# Optional: uncomment if you don't want to track Cursor project state
+# .cursor/
