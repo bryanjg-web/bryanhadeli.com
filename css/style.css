@@ -131,6 +131,16 @@ li {
   margin-top: 0.15rem;
 }
 
+/* Coming soon posts - greyed out so published posts stand out */
+li.post-coming-soon a,
+li.post-coming-soon .post-date {
+  color: #999;
+}
+
+li.post-coming-soon a:hover {
+  color: #666;
+}
+
 a {
   color: #1a1a1a;
   text-decoration: none;

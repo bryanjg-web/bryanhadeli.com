@@ -154,11 +154,13 @@
 
     listEl.innerHTML = sorted
       .map(
-        (item) =>
-          `<li>
+        (item) => {
+          const soon = isComingSoon(item.date);
+          return `<li${soon ? ' class="post-coming-soon"' : ''}>
             <a href="${basePath}/${item.slug}.html">${escapeHtml(item.title)}</a>
-            <time datetime="${isComingSoon(item.date) ? '' : item.date}" class="post-date">${formatDate(item.date)}</time>
-          </li>`
+            <time datetime="${soon ? '' : item.date}" class="post-date">${formatDate(item.date)}</time>
+          </li>`;
+        }
       )
       .join('');
   }
