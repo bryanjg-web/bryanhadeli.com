@@ -6,7 +6,7 @@ This project includes a script that **creates the GitHub repository and pushes y
 
 1. Open **https://github.com/settings/tokens**
 2. Click **Generate new token (classic)**
-3. Name it (e.g. `Ambition AI setup`), choose **Expiration**, and enable scope: **repo**
+3. Name it (e.g. `Bryanhadeli.com setup`), choose **Expiration**, and enable scope: **repo**
 4. Click **Generate token** and **copy the token** (starts with `ghp_`)
 
 ## 2. Run the setup script
@@ -14,7 +14,7 @@ This project includes a script that **creates the GitHub repository and pushes y
 In Terminal (or Cursor’s terminal), from the project folder:
 
 ```bash
-cd "/Users/bryangunawan/Ambition AI"
+cd "/Users/bryangunawan/Bryanhadeli.com"
 chmod +x scripts/setup-github.sh
 ./scripts/setup-github.sh
 ```

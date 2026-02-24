@@ -1,0 +1,50 @@
+{
+  "siteName": "Bryan Hadeli",
+  "pageTitle": "Bryan Hadeli",
+  "name": "Bryan Gunawan",
+  "bio": "24 year old Aussie dreaming to do big things. Currently earning my stripes @ big tech (Amazon), formerly a PM @ Stake, Investments @ Square Peg.",
+  "introNote1": "I started this website as a personal binge bank with only one goal in mind - if anyone was ever curious about me, they could come here, read what I have to say and walk away knowing me better than any resume ever could.",
+  "introNote2": "If you feel any type of way (as long as it's not indifferent!) about what I write, shoot me an email at bryanjamesgunawan@gmail.com! Always down to trade ideas :)",
+  "profileImage": "images/profile.png",
+  "sections": {
+    "lifePrinciples": {
+      "title": "Life Principles",
+      "blurb": "8 semi-controversial beliefs I have on success.",
+      "posts": [
+        { "title": "Energy is a skill", "slug": "energy-is-a-skill", "date": "2025-02-22" },
+        { "title": "Intensity is the strategy", "slug": "intensity-is-the-strategy", "date": "2025-02-15" },
+        { "title": "Excellence is a decision", "slug": "excellence-is-a-decision", "date": "coming soon" },
+        { "title": "Standing still is falling behind", "slug": "standing-still-is-falling-behind", "date": "coming soon" },
+        { "title": "'Readiness' is a lie", "slug": "readiness-is-a-lie", "date": "coming soon" },
+        { "title": "Find your bear on a unicycle", "slug": "find-your-bear-on-a-unicycle", "date": "coming soon" },
+        { "title": "Most things don't matter", "slug": "most-things-dont-matter", "date": "coming soon" },
+        { "title": "Stop studying, start doing", "slug": "stop-studying-start-doing", "date": "coming soon" }
+      ]
+    },
+    "workAndBusiness": {
+      "title": "Work and business",
+      "blurb": "Career reflections and occassional business posts.",
+      "posts": [
+        { "title": "If everything matters, nothing does", "slug": "if-everything-matters-nothing-does", "date": "coming soon" },
+        { "title": "Influence without authority", "slug": "influence-without-authority", "date": "coming soon" },
+        { "title": "Projects don't fail, people do", "slug": "projects-dont-fail-people-do", "date": "coming soon" }
+      ]
+    },
+    "swipeFile": {
+      "title": "Things that interest me",
+      "blurb": "They say that the best artists steal and I'm an filthy thief. If I got caught, here's what you'd find 👇",
+      "viewAllLabel": "View all",
+      "hideLabel": "Hide",
+      "items": [
+        { "type": "blog", "url": "https://www.shaanpuri.com/hof/mrbeast-memo", "title": "Leaked MrBeast memo", "image": "https://www.google.com/s2/favicons?domain=shaanpuri.com&sz=128" },
+        { "type": "blog", "url": "https://www.shaanpuri.com/essays/balance", "title": "Why the 'safe path' is not actually safe", "image": "https://www.google.com/s2/favicons?domain=shaanpuri.com&sz=128" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=dZxbVGhpEkI", "title": "How to live an asymmetric life" },
+        { "type": "podcast", "url": "https://colossus.com/series/invest-like-the-best/", "title": "Invest Like the Best", "image": "https://www.google.com/s2/favicons?domain=colossus.com&sz=128" },
+        { "type": "podcast", "url": "https://www.mfmpod.com/", "title": "My First Million", "image": "https://www.google.com/s2/favicons?domain=mfmpod.com&sz=128" },
+        { "type": "podcast", "url": "https://www.youtube.com/channel/UC0a_pO439rhcyHBZq3AKdrw", "title": "David Perell - YouTube", "image": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128" },
+        { "type": "podcast", "url": "https://www.lennysnewsletter.com/podcast", "title": "Lenny's Podcast", "image": "https://www.google.com/s2/favicons?domain=lennysnewsletter.com&sz=128" },
+        { "type": "blog", "url": "https://stratechery.com/", "title": "Stratechery", "image": "https://www.google.com/s2/favicons?domain=stratechery.com&sz=128" }
+      ]
+    }
+  }
+}

@@ -26,11 +26,11 @@ if [ ! -d .git ]; then
   echo "Initializing git repository..."
   git init
   git add .
-  git commit -m "Initial commit: Ambition AI project with Cursor commands"
+  git commit -m "Initial commit: Bryanhadeli.com project with Cursor commands"
 else
   if [ -n "$(git status --porcelain)" ]; then
     git add .
-    git commit -m "Update: Ambition AI project" || true
+    git commit -m "Update: Bryanhadeli.com project" || true
   fi
 fi
 

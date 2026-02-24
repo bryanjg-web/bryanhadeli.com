@@ -36,7 +36,7 @@ CREATE_RESPONSE=$(curl -s -S -X POST \
   -H "Authorization: token $GITHUB_TOKEN" \
   -H "Accept: application/vnd.github.v3+json" \
   "https://api.github.com/user/repos" \
-  -d "{\"name\":\"$REPO_NAME\",\"private\":false,\"description\":\"Ambition AI project\"}")
+  -d "{\"name\":\"$REPO_NAME\",\"private\":false,\"description\":\"Bryanhadeli.com project\"}")
 API_MSG=$(echo "$CREATE_RESPONSE" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('message',''))" 2>/dev/null || true)
 if [ -n "$API_MSG" ]; then
   echo "GitHub API error: $API_MSG"
@@ -48,7 +48,7 @@ if [ ! -d .git ]; then
   echo "Initializing git repository..."
   git init
   git add .
-  git commit -m "Initial commit: Ambition AI project with Cursor commands"
+  git commit -m "Initial commit: Bryanhadeli.com project with Cursor commands"
 fi
 
 REMOTE_URL="https://${GITHUB_TOKEN}@github.com/${USERNAME}/${REPO_NAME}.git"
